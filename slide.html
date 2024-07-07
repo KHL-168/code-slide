@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- links Tailwind -->
+    <link rel="stylesheet" href="/Tailwind/src/output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/Tailwind/src/CSS/index.css">
+    <!-- link flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <!-- links Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <sectio>
+        <div id="bg-image" class="w-[100%] m-auto h-[263px] md:h-[469px] lg:h-[750px] lg:mb-[50px] mt-5">
+            <div class="w-[90%] m-auto h-[250px] md:h-[450px] lg:h-[620px]">
+                <header class="text-center pt-3 md:pt-9 lg:pt-9 text-white">
+                    <h1 class="font-Koulen font-bold md:text-[30px] lg:text-[40px]">ហាងយើងខ្ញុំមានលក់ ផ្លែឈើធម្មជាតិ</h1>
+                    <h2 class="font-Koulen font-bold md:text-[22px] lg:text-[44px]">Our shop sells natural fruits</h2>
+                </header>
+                <div class="w-[100%] h-[203px] md:h-[355px] lg:h-[650px] bg-white p-3 md:p-5 lg:p-6">
+                    <div id="default-carousel" class="relative w-[100%] h-[180px] md:h-[315px] lg:h-[650px]" data-carousel="slide">
+                        <!-- Carousel wrapper -->
+                        <div class="relative overflow-hidden w-[100%] h-[180px] md:h-[315px] lg:h-[600px]">
+                            <!-- Item 1 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="https://www.cyberark.com/wp-content/uploads/2019/11/Developer.jpg" class="absolute block w-[100%] h-[100%] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="https://veloxsoftech.com/blog/wp-content/uploads/2021/04/Software-developer.jpg" class="absolute block w-[100%] h-[100%] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="https://www.codingdojo.com/blog/wp-content/uploads/9-Types-of-Developers-Which-One-Will-You-Be-01.jpg" class="absolute block w-[100%] h-[100%] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                            </div>
+                            <!-- Item 4 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="https://www.iss.nus.edu.sg/images/default-source/default-album/software-dev.jpg?Status=Master&sfvrsn=aa8aa05f_0" class="absolute block w-[100%] h-[100%] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                            </div>
+                            <!-- Item 5 -->
+                            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                                <img src="https://usa.bootcampcdn.com/wp-content/uploads/sites/108/2021/12/tes_gen_blog_post_071921_1233182206-1-800x412.jpg" class="absolute block w-[100%] h-[100%] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                            </div>
+                        </div>
+                        <!-- Slider indicators -->
+                        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 lg:bottom-9 left-1/2 space-x-3 rtl:space-x-reverse">
+                            <button type="button" class="hidden w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                            <button type="button" class="hidden w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                            <button type="button" class="hidden w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                            <button type="button" class="hidden w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+                            <button type="button" class="hidden w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+                        </div>
+                        <!-- Slider controls -->
+                        <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-[#1E6A2A]/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-[#31823d] dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-[#1E6A2A] dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                                </svg>
+                                <span class="sr-only">Previous</span>
+                            </span>
+                        </button>
+                        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-[#1E6A2A]/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-[#31823d] dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                                <svg class="w-4 h-4 text-[#1E6A2A] dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                                </svg>
+                                <span class="sr-only">Next</span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </sectio>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
+</html>
